@@ -1,0 +1,13 @@
+
+KafkaServer {
+  org.apache.kafka.common.security.plain.PlainLoginModule required
+  username="your_username"
+  password="your_password"
+  user_your_username="your_password";
+};
+
+KafkaClient {
+  org.apache.kafka.common.security.plain.PlainLoginModule required
+  username="your_username"
+  password="your_password";
+};
